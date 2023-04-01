@@ -1,0 +1,48 @@
+﻿<Window x:Class="WPF_KTPM.Layout"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_KTPM"
+        mc:Ignorable="d"
+        Title="Layout" Height="450" Width="400">
+    <Grid ShowGridLines="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        
+        <Button Grid.Column="1" 
+                Grid.Row="2">
+                Xin chào
+        </Button>
+         <TextBlock FontSize="20" 
+                    Grid.Row="1" 
+                    Grid.ColumnSpan="3" >
+                Con cò be bé, nó đậu cành tre
+            </TextBlock>
+            <CheckBox>
+                Nam
+            </CheckBox>
+            <TextBlock FontSize="20">
+                
+            </TextBlock>
+        <Image Source="Hotel.jpg">
+            
+        </Image>
+        
+        
+            
+    </Grid>
+</Window>
