@@ -58,13 +58,35 @@
     <Compile Include="Control_CB.xaml.cs">
       <DependentUpon>Control_CB.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Control_CB_Style1.xaml.cs">
+      <DependentUpon>Control_CB_Style1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control_CB_style2.xaml.cs">
+      <DependentUpon>Control_CB_style2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data_Binding.xaml.cs">
+      <DependentUpon>Data_Binding.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Layout.xaml.cs">
       <DependentUpon>Layout.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Product.cs" />
     <Compile Include="Rounter_Event.xaml.cs">
       <DependentUpon>Rounter_Event.xaml</DependentUpon>
     </Compile>
     <Page Include="Control_CB.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Control_CB_Style1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Control_CB_style2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Data_Binding.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -85,6 +107,14 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Rounter_Event.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Style1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Style2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
